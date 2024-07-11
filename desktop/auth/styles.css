@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100dvh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .actions-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.container h3 {
+  position: absolute;
+  top: 50px;
+  color: #392511;
+  font-size: 40px;
+  font-family: Rammetto One;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.container .btns-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container .btns-container .action-btn {
+  width: 300px;
+  height: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d9d9d9;
+  color: black;
+  font-size: 18px;
+  font-family: Pontano Sans;
+  font-weight: 400;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  border: none;
+  border-radius: 33px;
+  cursor: pointer;
+}
+
+.action-btn .icon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 10px;
+  top: 1;
+  bottom: 1;
+}
+
+.btns-container .remember-me {
+  color: #4f1717;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.btns-container .remembercontainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btns-container .remembercontainer .checkbox {
+  background-color: #503519;
+  border-radius: 50px;
+}
+
+.btns-container .submit {
+  background-color: #503519;
+  width: 200px;
+  height: 40px;
+  color: #fff;
+  font-size: 18px;
+  font-family: Pontano Sans;
+  font-weight: 400;
+  text-transform: capitalize;
+  word-wrap: break-word;
+  border: none;
+  border-radius: 33px;
+  cursor: pointer;
+}
+
+.actions-container .haveacc {
+  color: #2b0b0b;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.actions-container .haveacc .login {
+  margin-left: 10px;
+  color: black;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  text-decoration: underline;
+  word-wrap: break-word;
+}
+
+.container .img-container {
+  width: 626px;
+  height: 100%;
+}
+
+/*  */
+.container img {
+  width: 100%;
+  height: 100%;
+}
+
+/* email login */
+.container .form-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.container .form-container .inputcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container .form-container .inputcontainer .input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  border-color: #503519;
+}
+
+.container .form-container .newaccount {
+  color: #2b0b0b;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.container .form-container .newaccount .signup {
+  margin-left: 10px;
+  color: black;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  text-decoration: underline;
+  word-wrap: break-word;
+}
