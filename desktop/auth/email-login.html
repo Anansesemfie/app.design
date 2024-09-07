@@ -4,39 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="form-container">
+    <div class="auth-container">
         <h3>LOGIN</h3>
 
-        <form class="btns-container">
-          <div class="inputcontainer">
+      <div class="auth-form-container">
+        <h3>LOGIN</h3>
+        <form class="auth-btns-container">
+          <div class="auth-inputcontainer">
             <label for="email">Email</label>
-            <input class="input" type="email" name="email" id="email" />
+            <input class="auth-input" type="email" name="email" id="email" />
           </div>
-          <div class="inputcontainer">
+          <div class="auth-inputcontainer">
             <label for="password">Password</label>
-            <input class="input" type="password" name="password" id="password" />
+            <input
+              class="auth-input"
+              type="password"
+              name="password"
+              id="password"
+            />
           </div>
 
-          <div class="remembercontainer">
-            <p class="remember-me">Remember Me</p>
-            <input class="checkbox" type="checkbox" name="remember" id="" />
+          <div class="auth-remembercontainer">
+            <p class="auth-remember-me">Remember Me</p>
+            <input
+              class="auth-checkbox"
+              type="checkbox"
+              name="remember"
+              id=""
+            />
           </div>
-          <button class="submit">Submit</button>
-           <p class="mt10 newaccount">
-          Not registered?
-          <span class="signup"
-            ><a style="color: black" href="/signup">Signup</a></span
-          >
-        </p>
+          <button class="auth-submit mt10">Submit</button>
+          <p class="auth-newaccount">
+            Not registered?
+            <span class="auth-signup"
+              ><a style="color: black" href="/signup">Signup</a></span
+            >
+          </p>
+          <a href="" class="link mt">SIGNUP</a>
         </form>
-       
       </div>
 
-      <div class="img-container">
+      <div class="auth-img-container">
         <img src="../../assets/shelveimg.png" />
       </div>
     </div>

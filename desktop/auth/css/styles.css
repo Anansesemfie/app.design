@@ -10,7 +10,7 @@ body {
   box-sizing: border-box;
 }
 
-.container {
+.auth-container {
   width: 100%;
   height: 100%;
   display: flex;
@@ -18,7 +18,7 @@ body {
   justify-content: center;
 }
 
-.container .actions-container {
+.auth-container .auth-actions-container {
   position: relative;
   width: 100%;
   height: 100%;
@@ -29,7 +29,7 @@ body {
   gap: 40px;
 }
 
-.container .actions-container h3 {
+.auth-container .auth-actions-container h3 {
   /* position: absolute;
   top: 50px; */
   margin-top: 50px;
@@ -44,7 +44,7 @@ body {
   margin-top: 10px;
 }
 
-.container .btns-container {
+.auth-container .auth-btns-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,7 +52,7 @@ body {
   gap: 10px;
 }
 
-.container .btns-container .action-btn {
+.auth-container .auth-btns-container .auth-action-btn {
   width: 300px;
   height: 50px;
   position: relative;
@@ -71,7 +71,7 @@ body {
   cursor: pointer;
 }
 
-.action-btn .icon {
+.auth-action-btn .auth-icon {
   width: 30px;
   height: 30px;
   position: absolute;
@@ -80,7 +80,7 @@ body {
   bottom: 1;
 }
 
-.btns-container .remember-me {
+.auth-btns-container .auth-remember-me {
   color: #4f1717;
   font-size: 18px;
   font-family: Inter;
@@ -88,18 +88,18 @@ body {
   word-wrap: break-word;
 }
 
-.btns-container .remembercontainer {
+.auth-btns-container .auth-remembercontainer {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.btns-container .remembercontainer .checkbox {
+.auth-btns-container .auth-remembercontainer .auth-checkbox {
   background-color: #503519;
   border-radius: 50px;
 }
 
-.btns-container .submit {
+.auth-btns-container .auth-submit {
   background-color: #503519;
   width: 200px;
   height: 40px;
@@ -114,7 +114,7 @@ body {
   cursor: pointer;
 }
 
-.actions-container .haveacc {
+.auth-actions-container .auth-haveacc {
   color: #2b0b0b;
   font-size: 16px;
   font-family: Inter;
@@ -122,7 +122,7 @@ body {
   word-wrap: break-word;
 }
 
-.actions-container .haveacc .login {
+.auth-actions-container .auth-haveacc .auth-login {
   margin-left: 10px;
   color: black;
   font-size: 16px;
@@ -132,35 +132,20 @@ body {
   word-wrap: break-word;
 }
 
-.container .img-container {
+.auth-container .auth-img-container {
   width: 626px;
   height: 100%;
 }
 
-@media (max-width: 600px) {
-  .container .img-container {
-    display: none;
-  }
-
-  .container .form-container .inputcontainer {
-    box-sizing: border-box;
-    padding: 10px;
-  }
-
-  .container .form-container .inputcontainer .input {
-    width: 100%;
-  }
-}
-
 
 /*  */
-.container img {
+.auth-container img {
   width: 100%;
   height: 100%;
 }
 
 /* email login */
-.container .form-container {
+.auth-container .auth-form-container {
   box-sizing: border-box;
   position: relative;
   width: 100%;
@@ -171,7 +156,7 @@ body {
   gap: 40px;
 }
 
-.container .form-container h3 {
+.auth-container .auth-form-container h3 {
   margin-top: 50px;
   color: #392511;
   font-size: 40px;
@@ -180,21 +165,21 @@ body {
   word-wrap: break-word;
 }
 
-.container .form-container .inputcontainer {
+.auth-container .auth-form-container .auth-inputcontainer {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
-.container .form-container .inputcontainer .input {
+.auth-container .auth-form-container .auth-inputcontainer .auth-input {
   padding: 10px;
   width: 300px;
   border-radius: 10px;
   border-color: #503519;
 }
 
-.container .form-container .newaccount {
+.auth-container .auth-form-container .auth-newaccount {
   color: #2b0b0b;
   font-size: 16px;
   font-family: Inter;
@@ -202,7 +187,7 @@ body {
   word-wrap: break-word;
 }
 
-.container .form-container .newaccount .signup {
+.auth-container .auth-form-container .auth-newaccount .auth-signup {
   margin-left: 10px;
   color: black;
   font-size: 16px;

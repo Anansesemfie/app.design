@@ -9,7 +9,12 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="appbar">
+      <div class="appbar-mobile">
+        <button class="imgbtn">
+          <img class="img" src="../assets/Back.png" alt="" />
+        </button>
+      </div>
+      <div class="appbar-large">
         <button class="imgbtn">
           <img class="img" src="../assets/Ellipse 9.png" alt="" />
         </button>
@@ -21,12 +26,16 @@
 
       <div class="container">
         <div class="items-container">
-          <div class="width80 fullheight flex align-center justify-center flex-column space-evenly ">
+          <div class="settings-contents">
             <div>
               <div class="width300">
               <h1 class="settings">Settings</h1>
             </div>
-            <div class="user-card mt">
+
+            <!-- large screen -->
+
+            <div class="user-card-large">
+                <div class="user-card mt">
               <img src="../assets/profile.png" alt="">
 
               <div class="fullheight">
@@ -36,7 +45,20 @@
                 <a class="edit-profile-link" href="">Edit Profile</a>
               </div>
             </div>
-             <div class="width300 flex align-center justify-center flex-column mt gap10">
+            </div>
+          
+
+            <!-- mobile -->
+             <div class="search-container-mobile">
+              <div class="search-container mt">
+              <div class="search-box">
+                 <input class="search-input" type="search" name="search" id="search" placeholder="Search"/>
+                <img class="icon" src="../assets/search.png" alt="">
+                </div>
+              </div>
+             </div>
+
+             <div class="width300 flex align-center justify-center flex-column mt gap20">
                 <div  class="fullwidth flex align-center justify-between">
                   <p class="profile-txt">Allow Notifications</p>
                   <img height="20px" src="../assets/Vector.png" alt="" srcset="">
